@@ -10,14 +10,14 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:background="@color/colorAccent"
     tools:context="com.londonappbrewery.iampoor.MainActivity">
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="40dp"
+      android:layout_marginTop="100dp"
         android:text="@string/title"
+        android:layout_centerHorizontal="true"
         android:textColor="@android:color/black"
         android:textSize="40sp" />
 
@@ -26,6 +26,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView"
-        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
         app:srcCompat="@drawable/coal" />
 </RelativeLayout>
